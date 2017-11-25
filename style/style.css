@@ -69,7 +69,7 @@ nav ul li{
     cursor: pointer;
 }
 nav ul li:hover{
-    color: red;
+    color: darkblue;
 }
 .shop-icon{
     float: right;
@@ -77,7 +77,7 @@ nav ul li:hover{
     font-size: 35px;
 }
 .shop-icon:hover{
-    color: red;
+    color: darkblue;
 }
 .mob-menu {
     color: black;
@@ -86,7 +86,7 @@ nav ul li:hover{
     cursor: pointer;
 }
 .mob-menu:hover {
-    color: red;
+    color: darkblue;
 }
 
 
@@ -152,7 +152,7 @@ nav ul li:hover{
     border-right: 2px solid #26286b;
 }
 .icon-left:hover{
-    color:red;
+    color: darkblue;
 }
 .icon-right{
     float: left;
@@ -160,7 +160,7 @@ nav ul li:hover{
     padding:5px 30px;
 }
 .icon-right:hover{
-    color:red;
+    color: darkblue;
 }
 
 
@@ -376,7 +376,7 @@ nav ul li:hover{
 .block7 {
     background: url("../image/block7-bg.png") center center no-repeat #056cb6;
     height: 900px;
-    background-size: 100% 100%;
+    background-size: cover;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -393,14 +393,14 @@ nav ul li:hover{
     text-decoration: none;
 }
 .inst-logo h2 a:hover{
-    color: red;
+    color: darkblue;
 }
 .inst-logo p i{
     font-size: 46px;
     color: white;
 }
 .inst-logo p i:hover{
-    color: red;
+    color: darkblue;
 }
 .inst-img{
     max-width: 1040px;
@@ -417,27 +417,67 @@ nav ul li:hover{
 }
 .inst-img1 a:hover{
     border-radius: 150px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
 }
 .inst-img2 a:hover{
     border-radius: 150px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
 }
 .inst-img3 a:hover{
     border-radius: 150px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
 }
 .inst-img4 a:hover{
     border-radius: 150px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
 }
 .inst-img5 a:hover{
     border-radius: 150px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
 }
 .inst-img6 a:hover{
     border-radius: 150px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
 }
 .inst-img7 a:hover{
     border-radius: 150px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
 }
 .inst-img8 a:hover{
     border-radius: 150px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
 }
 .inst-img2 a{
     margin: 10px;
@@ -545,7 +585,7 @@ nav ul li:hover{
     cursor: pointer;
 }
 .block8-buy-now:hover{
-    color: red;
+    color: darkblue;
 }
 .block8-center{
     width: 602px;
@@ -674,7 +714,7 @@ nav ul li:hover{
     cursor: pointer;
 }
 .select-right:hover{
-    color: red;
+    color: darkblue;
 }
 .select-right i{
     margin-top:13px;
@@ -694,7 +734,7 @@ nav ul li:hover{
     color: white;
 }
 .footer-top-center ul li a:hover{
-    color: red;
+    color: darkblue;
 }
 .footer-top-right{
     float: right;
@@ -737,7 +777,7 @@ nav ul li:hover{
     color: white;
 }
 .footer-bottom-right ul li a:hover{
-    color: red;
+    color: darkblue;
 }
 
 
@@ -989,10 +1029,10 @@ nav ul li:hover{
         margin-bottom:10px;
     }
     nav{
-        float: none;
+        float: left;
     }
     .shop-icon{
-        float: none;
+        float: right;
         display: inline-block;
     }
     /*BLOCK2*/
@@ -1083,13 +1123,28 @@ nav ul li:hover{
     }
     /*BLOCK 11*/
     .block11 {
-        padding:20px 10px;
+        padding:20px 30px;
     }
     .footer-top-center{
         margin-left:10px;
+        float: right;
     }
     .select{
         width: 250px;
+    }
+    .footer-top-left{
+        margin-right: 80px;
+    }
+    .select{
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+    .footer-top-right{
+        float: left;
+        margin-top: 10px;
+    }
+    .block11-bottom {
+        padding-top: 10px;
     }
 }
 @media screen and (max-width: 1000px){
@@ -1103,12 +1158,13 @@ nav ul li:hover{
         margin-top:5px;
     }
     .block3-images{
-        display: flex;
-        flex-flow: column wrap;
-        justify-content: center;
+        display: block;
     }
     .block3{
         padding: 10px 10px;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
     }
     /*BLOCK5*/
     .video-block iframe {
@@ -1163,31 +1219,36 @@ nav ul li:hover{
         margin: 20px 0 30px 0;
     }
     /*BLOCK 11*/
-    .footer-top-center{
-        float: right;
+    .footer-top-left{
+        margin-right:0;
     }
-    .select{
-        margin-top: 10px;
-        margin-right: 20px;
-    }
-    .footer-top-right{
-        float: left;
-        margin-top: 10px;
-    }
-    .block11-bottom {
-        padding-top: 10px;
-    }
+
 }
 @media screen and (max-width: 900px){
     /*BLOCK4*/
-    .black-block{
+    .block4{
         display: flex;
         flex-flow: column wrap;
         justify-content: center;
+    }
+    .black-block{
+      display: block;
         padding: 10px 0;
     }
     .black-block-item{
         margin: 10px auto;
+    }
+    /*BLOCK6*/
+    .slider-pointer{
+        max-width: 60px;
+    }
+    .pointer1{
+        height:15px;
+        width:15px;
+    }
+    .pointer2{
+        height:15px;
+        width:15px;
     }
     /*BLOCK 7 */
     .block7 {
@@ -1233,48 +1294,48 @@ nav ul li:hover{
         padding: 25px 0;
     }
     .block8-left{
-        width:150px;
+        width:220px;
     }
     .block8-left img{
-        width:150px;
+        width:220px;
     }
     .block8-center{
-        width: 150px;
+        width: 220px;
     }
     .block8-center img{
-        width:150px;
+        width:220px;
     }
     .block8-right{
-        width: 149px;
+        width: 219px;
     }
     .block8-right img{
-        width:149px;
+        width:219px;
     }
     .block8-title {
-        font-size: 14px;
-        margin-top: 65px;
-        letter-spacing: 1px;
+        font-size: 20px;
+        margin-top: 130px;
     }
     .block8-buy-now {
         margin-top: 0;
-        font-size: 14px;
+        font-size: 20px;
         padding:0;
     }
     .block8-left-bg{
-        width: 150px;
-        height: 109px;
-        top:22px;
+        width: 220px;
+        height: 174px;
+        top:32px;
     }
     .block8-center-bg{
-        width: 150px;
-        height: 109px;
-        top:22px;
+        width: 220px;
+        height: 174px;
+        top:32px;
     }
     .block8-right-bg{
-          width: 149px;
-          height: 109px;
-          top:22px;
+        width: 219px;
+        height: 174px;
+        top:32px;
     }
+
     /*BLOCK 10 */
     .block10 h1{
         font-size: 40px;
@@ -1351,42 +1412,58 @@ nav ul li:hover{
     }
     /*BLOCK 7 */
     .block7 {
-        height: 500px;
+        height: 700px;
     }
     .inst-img{
-        max-width: 440px;
+        max-width: 480px;
     }
-    .inst-img1 a {
-        height: 100px;
-        width: 100px;
+
+    /*BLOCK 8*/
+    .block8{
+        padding: 25px 0;
     }
-    .inst-img2 a {
-        height: 100px;
-        width: 100px;
+    .block8-left{
+        width:150px;
     }
-    .inst-img3 a {
-        height: 100px;
-        width: 100px;
+    .block8-left img{
+        width:150px;
     }
-    .inst-img4 a {
-        height: 100px;
-        width: 100px;
+    .block8-center{
+        width: 150px;
     }
-    .inst-img5 a {
-        height: 100px;
-        width: 100px;
+    .block8-center img{
+        width:150px;
     }
-    .inst-img6 a {
-        height: 100px;
-        width: 100px;
+    .block8-right{
+        width: 149px;
     }
-    .inst-img7 a {
-        height: 100px;
-        width: 100px;
+    .block8-right img{
+        width:149px;
     }
-    .inst-img8 a {
-        height: 100px;
-        width: 100px;
+    .block8-title {
+        font-size: 14px;
+        margin-top: 65px;
+        letter-spacing: 1px;
+    }
+    .block8-buy-now {
+        margin-top: 0;
+        font-size: 14px;
+        padding:0;
+    }
+    .block8-left-bg{
+        width: 150px;
+        height: 109px;
+        top:22px;
+    }
+    .block8-center-bg{
+        width: 150px;
+        height: 109px;
+        top:22px;
+    }
+    .block8-right-bg{
+        width: 149px;
+        height: 109px;
+        top:22px;
     }
     /*BLOCK9*/
     .block9{
@@ -1539,7 +1616,7 @@ nav ul li:hover{
     }
     /*BLOCK 7 */
     .block7 {
-        height: 300px;
+        height: 800px;
     }
     .inst-logo h2 a{
         font-size: 20px;
@@ -1548,50 +1625,58 @@ nav ul li:hover{
         font-size: 30px;
     }
     .inst-img{
-        max-width: 240px;
+        max-width: 320px;
     }
-    .inst-img1 a {
-        height: 50px;
-        width: 50px;
-    }
-    .inst-img2 a {
-        height: 50px;
-        width: 50px;
-    }
-    .inst-img3 a {
-        height: 50px;
-        width: 50px;
-    }
-    .inst-img4 a {
-        height: 50px;
-        width: 50px;
-    }
-    .inst-img5 a {
-        height: 50px;
-        width: 50px;
-    }
-    .inst-img6 a {
-        height: 50px;
-        width: 50px;
-    }
-    .inst-img7 a {
-        height: 50px;
-        width: 50px;
-    }
-    .inst-img8 a {
-        height: 50px;
-        width: 50px;
-    }
+
     /*BLOCK 8*/
     .block8 {
-        padding:10px 170px;
-        display: block;
-    }
-    .block8-left{
-       margin-bottom: 10px;
+        padding:10px 0;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
     }
     .block8-center{
-        margin-bottom: 10px;
+        margin: 10px 0;
+    }
+    .block8-left{
+        width:300px;
+    }
+    .block8-left img{
+        width:300px;
+    }
+    .block8-center{
+        width: 300px;
+    }
+    .block8-center img{
+        width:300px;
+    }
+    .block8-right{
+        width: 299px;
+    }
+    .block8-right img{
+        width:299px;
+    }
+    .block8-title {
+        font-size: 28px;
+        margin-top: 150px;
+    }
+    .block8-buy-now {
+        margin-top: 20px;
+    }
+    .block8-left-bg{
+        width: 300px;
+        height: 216px;
+        top:42px;
+    }
+    .block8-center-bg{
+        width: 300px;
+        height: 216px;
+        top:42px;
+    }
+    .block8-right-bg{
+        width: 299px;
+        height: 216px;
+        top:42px;
     }
     /*BLOCK9*/
     .block9{
@@ -1616,16 +1701,6 @@ nav ul li:hover{
     }
 }
 @media screen and (max-width: 450px){
-    /*BLOCK11*/
-    .footer-top-center{
-        float: left;
-        margin:10px 0 0 0;
-    }
-    .select{
-        margin-right: 30px;
-    }
-}
-@media screen and (max-width: 400px){
     /*BLOCK1*/
     nav{
         display:none;
@@ -1638,6 +1713,22 @@ nav ul li:hover{
     .shop-icon{
         float: right;
     }
+    /*BLOCK11*/
+    .footer-top-left h6{
+        margin:10px 0;
+    }
+    .footer-top-center{
+        float: left;
+        margin:10px 0 0 0;
+    }
+    .select{
+        margin-right: 50px;
+    }
+    .footer-top-right p{
+        margin: 10px 0;
+    }
+}
+@media screen and (max-width: 400px){
     /*BLOCK2*/
     .block2{
         height:300px;
@@ -1680,9 +1771,9 @@ nav ul li:hover{
         height:175px;
     }
     /*BLOCK 7 */
-    .block7 {
-        height: 220px;
-    }
+   .block7{
+       height: 780px;
+   }
     /*BLOCK 8*/
     .block8 {
         padding:10px 100px;
